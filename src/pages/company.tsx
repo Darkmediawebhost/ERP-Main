@@ -485,7 +485,8 @@ export function SettingsPage() {
         {can('settings.manage') && <Button type="submit">Save company</Button>}
       </form></Card>}
       <Card>
-        <h2 className="mb-3 font-semibold">Your theme</h2>
+        <h2 className="mb-3 font-semibold">Your Theme</h2>
+        {/* <h2 className="mb-3 font-semibold">Your theme</h2> */}
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">{(['light', 'dark', 'system'] as const).map((theme) => <Button key={theme} className="w-full" variant="ghost" onClick={async () => { applyTheme(theme); await api.patch('/auth/me', { theme }); toast('Theme saved'); refresh(); }}>{theme}</Button>)}</div>
       </Card>
       
