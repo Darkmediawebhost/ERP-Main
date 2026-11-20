@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">DEMO ERP</string>
-    <string name="title_activity_main">DEMO ERP</string>
+    <string name="app_name">DARK MEDIA ERP</string>
+    <string name="title_activity_main">DARK MEDIA ERP</string>
     <string name="package_name">com.demoerp.app</string>
     <string name="custom_url_scheme">com.demoerp.app</string>
 </resources>

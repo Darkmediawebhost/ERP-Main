@@ -62,8 +62,8 @@ export function Layout() {
       <div className="flex min-h-screen">
         <aside className={`fixed inset-y-0 left-0 z-40 flex w-[min(86vw,280px)] flex-col bg-black text-white transition-all lg:w-[272px] ${collapsed ? 'lg:w-[84px]' : ''} ${open ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
           <div className="flex items-center gap-3 px-5 py-5">
-            <span className="grid h-8 w-8 place-items-center rounded-lg bg-lime text-xs font-bold text-black">DE</span>
-            {!collapsed && <p className="text-sm font-semibold tracking-[0.16em]">DEMO ERP</p>}
+            <span className="grid h-8 w-8 place-items-center rounded-lg bg-lime text-xs font-bold text-black">DM</span>
+            {!collapsed && <p className="text-sm font-semibold tracking-[0.16em]">DARK MEDIA</p>}
           </div>
           <nav className="flex-1 space-y-1 overflow-y-auto px-3 pb-4">
             {visible.map((item) => (

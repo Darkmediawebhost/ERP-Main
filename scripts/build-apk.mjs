@@ -46,7 +46,7 @@ const androidHome = process.env.ANDROID_HOME || path.join(process.env.LOCALAPPDA
 process.env.ANDROID_HOME = androidHome;
 process.env.ANDROID_SDK_ROOT = androidHome;
 process.env.VITE_API_URL = apiUrl;
-console.log(`Building DEMO ERP APK for ${apiUrl}`);
+console.log(`Building DARK MEDIA ERP APK for ${apiUrl}`);
 
 await run('npx', ['vite', 'build']);
 if (!fs.existsSync(path.join(clientRoot, 'android'))) {

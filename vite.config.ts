@@ -10,9 +10,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icon-192.png', 'icon-512.png'],
       manifest: {
-        name: 'DEMO ERP',
-        short_name: 'DEMO ERP',
-        description: 'DEMO ERP for laptop and Android',
+        name: 'DARK MEDIA ERP',
+        short_name: 'DARK MEDIA ERP',
+        description: 'DARK MEDIA ERP for laptop and Android',
         theme_color: '#111111',
         background_color: '#111111',
         display: 'standalone',
